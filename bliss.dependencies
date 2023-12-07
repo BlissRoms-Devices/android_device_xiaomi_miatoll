@@ -34,5 +34,11 @@
     "repository": "Joker-V2/prebuilts_clang_host_linux-x86_clang-r498229",
     "target_path": "prebuilts/clang/host/linux-x86/clang-r498229",
     "branch":"master"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch":"lineage-21"
   }
 ]
