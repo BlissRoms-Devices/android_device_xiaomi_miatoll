@@ -13,12 +13,14 @@
 # limitations under the License.
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Inherit some common blissOS stuff
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_miatoll
+PRODUCT_NAME := bliss_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250
